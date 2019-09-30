@@ -4,7 +4,7 @@ while totalAmount > 0:
     selectedNumber=int(input("\nOn which number do you want to bet ?"))
     from random import randint
     x=0
-    selectNumber=x
+    x=selectNumber
     if x < 0 or x > 49:
         print("You have to bet a number between 0 and 49")
     
