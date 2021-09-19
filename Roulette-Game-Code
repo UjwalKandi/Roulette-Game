@@ -1,8 +1,11 @@
-totalAmount=1000 #Total amount invested 
+from random import randint
+
+totalAmount=1000                            #total amount invested 
+
 while totalAmount > 0:
     print("Welcome !!!\nYou have", totalAmount,"€. Good Luck !!\n_________________________________")
     selectedNumber=int(input("\nOn which number do you want to bet ?"))
-    from random import randint
+    
     x=0
     x=selectNumber
     if x < 0 or x > 49:
