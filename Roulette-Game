@@ -1,3 +1,4 @@
+```
 from random import randint
 
 totalAmount=1000                            #total amount invested 
@@ -22,3 +23,4 @@ while totalAmount > 0:
         print("\nYou now have",totalAmount,"€ left\n_________________________________")
 if totalAmount==0:
     print("Sorry but you don't have enough money to continue !\nThe game is now ending !")
+```
